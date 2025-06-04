@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', cursive, sans-serif;
+  background-color: #ffc2de;
+  text-align: center;
+  padding: 50px;
+}
+
+.contenedor {
+  max-width: 400px;
+  margin: auto;
+}
+
+.titulo {
+font-size: 50px;
+}
+
+
+img#galletita {
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+img#galletita:hover {
+  transform: scale(1.1);
+}
+
+#barra-contenedor {
+  width: 100%;
+  background-color: #e4e4e4;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 20px 0;
+  height: 30px;
+  border: #4f8f6c;
+}
+
+#barra-progreso {
+  height: 100%;
+  width: 0%;
+  background-color: #5ca08e;
+  transition: width 0.4s ease;
+}
+
+.oculto {
+  display: none;
+  color: #5ca08e;
+  font-weight: bold;
+  margin-top: 20px;
+}
